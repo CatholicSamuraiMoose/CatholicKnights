@@ -61,14 +61,14 @@ nav ul li {
 }
 
 nav ul li a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
   height: 40px;
+  line-height: 40px;
   padding: 0 15px;
-  color:  #cfbb00;
+  color: #cfbb00;
   text-decoration: none;
   font-size: 18px;
+  text-align: center;
 }
 
 nav ul li a:hover {
