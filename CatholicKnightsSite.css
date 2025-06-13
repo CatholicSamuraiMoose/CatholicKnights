@@ -48,23 +48,27 @@ li {
 }
 
 nav ul {
-  display: flex; /* Makes the <ul> a flex container */
+  display: flex;
   list-style-type: none;
   padding: 0;
   margin: 0;
-  justify-content: center; /* Centers the items horizontally */
+  justify-content: center;
   background-color: #5f4b34;
 }
 
 nav ul li {
-  margin-right: 20px; /* Adds space between the items */
+  margin-right: 20px;
 }
 
 nav ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  padding: 0 15px;
   color:  #cfbb00;
   text-decoration: none;
   font-size: 18px;
-  padding: 10px;
 }
 
 nav ul li a:hover {
